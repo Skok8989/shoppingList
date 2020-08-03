@@ -1,0 +1,80 @@
+body,
+div,
+p,
+h1,
+ul,
+button {
+  margin: 0;
+}
+
+body {
+  background: url(img/pexels-vlado-paunovic-3028961.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.shoppingContainner {
+  background: rgb(132, 128, 212);
+  background: linear-gradient(
+    90deg,
+    rgba(132, 128, 212, 1) 7%,
+    rgba(141, 127, 196, 1) 29%,
+    rgba(150, 152, 205, 1) 48%,
+    rgba(160, 121, 198, 1) 74%,
+    rgba(174, 129, 203, 1) 100%
+  );
+  width: 400px;
+  height: 600px;
+  margin: 60px auto;
+  text-align: center;
+  border-radius: 30px;
+}
+
+h1 {
+  line-height: 45px;
+  color: white;
+  border-radius: 30px 30px 0 0;
+
+  height: 8%;
+  font-size: 26px;
+}
+
+ul {
+  height: 78%;
+  background-color: rgb(252, 240, 255);
+  padding-right: 40px;
+}
+
+li {
+  margin-bottom: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#inputarea {
+  background-color: white;
+  width: 396px;
+  height: 6%;
+  border: none;
+}
+
+#inputarea:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  background-color: rgb(252, 240, 255);
+}
+
+button:focus {
+  outline: none;
+}
+
+#addbtn {
+  background-color: black;
+  margin-top: 5px;
+  font-size: 25px;
+  border: none;
+  border-radius: 100%;
+}
